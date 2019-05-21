@@ -2,19 +2,10 @@
 <strong>It implements various ways in which we can pre process raw text before creating an embedding layer.</strong>
 
 ### Dateset
-Dataset is provided with the repository in the file <strong>anna.txt</strong> . It should be kept in the same directory as the code. 
+Dataset is provided with the repository in the file. It should be kept in the same directory as the code. 
 
-### Model description
-Code for the LSTM is provided in the notebook CharRNN.ipynb. The model is created in the class named CharRNN.
-1. Model Structure
-      - Hidden layers : 256
-      - Number of LSTM layers : 2
-      - Input size : 83
-      - Output size : 83
-      
-2. Loss : Cross Entropy Loss
-
-3. Optimizer : Adam optimizer
+### Code description
+This code explains different ways using which we can preprocess raw text. The code is provided in Text_Processing.ipynb.
 
 ### Usage
 To use the code, execute all the cells in CharRNN.ipynb and send the required arguments in sample function.
